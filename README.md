@@ -1,3 +1,4 @@
+## Assignment-1
 ## Question:
 
 Build a payment system for an e-commerce website where users can make payments using different payment methods such as credit cards, PayPal, and bank transfers.
@@ -20,3 +21,8 @@ Write a modular program that can perform the following operations:
     It defines functions to add a payment method, process a payment using a payment method and amount, get a list of all payment methods, get a list of all credit cards that have been added, and get the total number of bank transfers that have been added.
     It defines a function to process a payment with validation, where the validation function takes a double and returns a boolean. If the validation function returns true, the payment is processed using the given payment method and amount. If it returns false, an error message is returned. If the validation function throws an exception, an error message is returned.
 
+## Assignment-2
+
+The above project defines a case class named EqualityCheck which has properties for two strings, two integers, two doubles, two objects and two lists of integers. The case class also has five methods that compare the properties of two instances of the class for equality or inequality. The methods return a Try object which wraps a boolean value indicating the result of the comparison.
+
+The driver code creates two instances of EqualityCheck and calls the five comparison methods on them to demonstrate their functionality. The results are printed to the console.

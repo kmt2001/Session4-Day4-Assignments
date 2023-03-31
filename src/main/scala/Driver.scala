@@ -1,5 +1,6 @@
 import paymentSystem._
 import EqualityExamples._
+import SurpriseTest3.ListSummation
 
 object Driver extends App {
 
@@ -72,4 +73,17 @@ object Driver extends App {
   println(s"Lists reference equality: equalityCheck1.compareLists() = ${equalityCheck1.compareLists()}")
   println(s"Lists reference equality: equalityCheck2.compareLists() = ${equalityCheck2.compareLists()}")
 
+
+  // Driver code for List Summation.
+  val list1 = List(1, 2, 3, 4, 5)
+  private val result1 = new ListSummation().sum(list1, 0)
+  println(s"Sum of $list1: $result1")
+
+  val list2 = List()
+  private val result2 = new ListSummation().sum(list2, 0)
+  println(s"Sum of $list2: $result2")
+
+  private val list3 = List(1)
+  private val result3 = new ListSummation().sum(list3, 0)
+  println(s"Sum of $list3: $result3")
 }
